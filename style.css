@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 150px 600px;
+    background-color: aqua;
+    text-align: center;
+    color: steelblue;
+}
+.topbar{ 
+    background-color: brown;
+    width: 370px;
+    height: 3px;
+    transform: rotate(10deg);
+    position: relative;
+    top: 47px;
+}
+.bottombar{
+    background-color: brown;
+    width: 370px;
+    height: 3px;
+    transform: rotate(-10deg);
+    position: relative;
+    top: 160px;
+    /* bottom: 45px; */
+}
+.strip1{
+    background-color: red;
+    width: 30px;
+    height: 200px;
+    position: relative;
+    left: 10px;
+}
+.strip2{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background-color: rgb(235, 92, 116);
+    width: 30px;
+    height: 180px;
+}
+.strip3{
+    background-color: rgb(255, 166, 0);
+    width: 30px;
+    height: 170px;
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+.strip4{
+    background-color: orangered;
+    width: 30px;
+    height: 155px;
+    position: relative;
+    left: 40px;
+    top: 22px;
+}
+
+.strip5{
+    background-color: green;
+    width: 30px;
+    height: 142px;
+    position: relative;
+    left: 50px;
+    top: 28px;
+}
+
+.strip6{
+    background-color: rgb(104, 181, 104);
+    width: 30px;
+    height: 128px;
+    position: relative;
+    left: 60px;
+    top: 35px;
+}
+
+.strip7{
+    background-color: blue;
+    width: 30px;
+    height: 110px;
+    position: relative;
+    left: 70px;
+    top: 45px;
+}
+.strip8{
+    background-color: rgb(0, 255, 102);
+    width: 30px;
+    height: 99px;
+    position: relative;
+    left: 80px;
+    top: 50px;
+}
+.strip9{
+    background-color: rgb(0, 229, 255);
+    width: 30px;
+    height: 85px;
+    position: relative;
+    left: 90px;
+    top: 58px;
+}
+.strips{
+    display: flex;
+    flex-direction: row;
+}
+.strip1:hover,.strip2:hover,.strip3:hover,.strip4:hover,.strip5:hover,.strip6:hover,.strip7:hover,.strip8:hover,.strip9:hover{
+    background-color: whitesmoke;
+}
